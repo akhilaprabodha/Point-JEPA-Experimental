@@ -1,3 +1,5 @@
+![GitHub Repo Views](https://komarev.com/ghpvc/?username=akhilaprabodha&repo=Point-JEPA&color=blue&style=flat-square)
+
 # Point-JEPA: Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Clouds 🚀
 
 This repository provides an implementation of **Point-JEPA**, a Joint Embedding Predictive Architecture tailored for self-supervised learning on point cloud data. The training pipeline is optimized for high-performance GPUs, such as the NVIDIA A100, to achieve state-of-the-art results.
