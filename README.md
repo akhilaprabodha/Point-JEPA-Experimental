@@ -108,8 +108,8 @@ dataset_path: /path/to/dataset
 ## 🔥 Training Steps
 
 1. **Start Training**:
-   ```bash
-   python -m pointjepa fit -c configs/Point-JEPA/pretraining/shapenet.yaml
+```bash
+python -m pointjepa fit -c configs/Point-JEPA/pretraining/shapenet.yaml
 ```
 
 After running the above command:
