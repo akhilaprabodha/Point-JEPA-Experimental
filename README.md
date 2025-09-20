@@ -6,17 +6,17 @@ This repository provides an implementation of **Point-JEPA**, a Joint Embedding 
 
 ---
 
-## 🚦 Training Process
+## Training Process
 
 ### Datasets: Prepare and configure the necessary datasets as described below.
 
 ---
 
-## 📂 Datasets
+## Datasets
 
 Point-JEPA utilizes several datasets for training and evaluation. Below are the details and setup instructions for each:
 
-### 1. **ModelNet40** 🏠
+### 1. **ModelNet40**
 
 - **Description**: A benchmark dataset comprising 3D CAD models across 40 categories, such as chairs, tables, and airplanes.
 - **Details**:
@@ -39,7 +39,7 @@ Point-JEPA utilizes several datasets for training and evaluation. Below are the 
          └── shape_names.txt
      ```
 
-### 2. **ShapeNet** 🛠️
+### 2. **ShapeNet** 
 
 - **Description**: A comprehensive dataset of 3D models categorized into various object classes.
 - **Details**:
@@ -66,7 +66,7 @@ Point-JEPA utilizes several datasets for training and evaluation. Below are the 
          └── ...
      ```
 
-### 3. **ScanObjectNN** 🖼️
+### 3. **ScanObjectNN** 
 
 - **Description**: A dataset containing real-world 3D object scans, providing a diverse set of object point clouds.
 - **Setup**:
@@ -89,7 +89,7 @@ Point-JEPA utilizes several datasets for training and evaluation. Below are the 
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 Adjust the training parameters in the configuration file (`configs/Point-JEPA/pretraining/shapenet.yaml`) as needed. Key parameters include:
 
@@ -105,7 +105,7 @@ learning_rate: 0.001
 epochs: 500
 dataset_path: /path/to/dataset
 ```
-## 🔥 Training Steps
+## Training Steps
 
 1. **Start Training**:
 ```bash
@@ -136,7 +136,7 @@ This will output metrics such as accuracy and inference time.
 
 ---
 
-## 🏆 Key Features
+##  Key Features
 
 - **Self-Supervised Learning**: Employs joint embeddings for effective representation learning without the need for labeled data.
 - **Efficiency**: Designed to reduce pre-training time compared to traditional methods.
@@ -144,7 +144,7 @@ This will output metrics such as accuracy and inference time.
 
 ---
 
-## 🤝 Acknowledgements
+##  Acknowledgements
 
 This implementation is based on the research paper [Point-JEPA: A Joint Embedding Predictive Architecture for Self-Supervised Learning on Point Cloud](https://arxiv.org/abs/2404.16432) by **Ayumu Saito**, **Prachi Kudeshia**, and **Jiju Poovvancheri**. Special thanks to their original GitHub repository [Point-JEPA](https://github.com/Ayumu-J-S/Point-JEPA) for providing foundational resources.
 
